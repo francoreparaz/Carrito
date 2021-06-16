@@ -1,0 +1,76 @@
+.App {
+  position: absolute;
+ 
+}
+.box{
+  display: flex;
+  height: 100%;
+  width: 120%;
+  border: solid 2px black;
+  margin-left: 55%;
+  margin-top: 50px;
+  background-color: rgb(112, 110, 110);
+  
+}
+
+.subtotal{
+  text-align: center;
+  height: 350px;
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: 150px;
+  margin-right: 2px;
+  width: 150px;
+  border: solid 2px black;
+}
+
+p{
+  display: inline-flex;
+  flex-direction: column;
+ justify-content: space-evenly;
+  
+  
+}
+.lista{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.cant{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  margin-left: 220px;
+  margin-top: 55px;
+}
+.cantNum{
+ margin-bottom:55px;
+ margin-top: 20px;
+}
+.num{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom:20px;
+  margin-top: 2px;
+  color: white;
+}
+.buttons{
+  margin-top: 5px;
+}
+.buton{
+  background-color: green;
+  color: white;
+}
+.buton:hover{
+  background-color: blue;
+}
+.buton2{
+  background-color: red;
+  color: white;
+}
+.buton2:hover{
+  background-color: blue;
+}
